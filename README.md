@@ -1,0 +1,3 @@
+# Julia Type Stability and MethodErrors
+
+This repository demonstrates a common issue in Julia programming related to type stability and the resulting `MethodError`.  The code showcases a function that works correctly with flexible types but fails when constrained to a specific type due to a mismatch in expected input types. The solution shows how to address this by either making the function more flexible or handling potential type mismatches.
